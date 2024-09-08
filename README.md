@@ -6,6 +6,7 @@ sudo apt update && apt upgrade -y
 ```
 - install coder
   - watch for URL in output
+  - journalctl -u coder.service -b
 - install Docker
   - reboot
   - might need this (sudo chmod 666 /var/run/docker.sock)
